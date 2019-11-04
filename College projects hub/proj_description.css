@@ -1,0 +1,154 @@
+body
+{
+    margin: 0;
+    background-image: url("https://www.xmple.com/wallpaper/black-white-hexagon-purple-glow-gradient-1920x1080-c4-000000-ffffff-483d8b-000000-l2-1-29-a-45-f-6.svg");
+    background-size: 100%; 
+}
+header
+{
+    width: 100%;
+}
+#login
+{
+    width: 100%;
+    height: 100%;
+	padding: 2em;
+	position: absolute;
+	
+
+}
+
+.container1
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    opacity: 0.78;
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 3.5px;
+    padding: 10px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+
+.container2
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    opacity: 0.78;
+    display: inline-block;
+    width: 550px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 3.5px;
+    padding: 10px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+
+.container3
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    opacity: 0.78;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 5px;
+    border-radius: 3.5px;
+    padding: 10px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+
+#footer
+{
+    font: 25px Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: 25px;
+    background: orange;
+    display:inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight
+{
+    color: rgb(233, 24, 10);
+}
+
+#login
+{
+    width: 100%;
+	padding: 2px;
+	/*border: #ccc 2px solid;*/
+	position: absolute;
+	
+
+}
+header
+{
+    color: rgb(238, 221, 220); 
+    font-family: Verdana, Geneva, Tahoma, serif;
+    box-shadow: 0px 5px rgba(117, 110, 110, 0.61) ;
+    /* overflow: hidden; */
+    
+}
+
+#header1
+{
+	display: inline-block;
+	padding-bottom: 20px;
+    margin-left: 200px;
+    position: relative;
+    font-size: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+ul
+{
+	width: 100%;
+	margin-left: 450px;
+}
+
+li
+{
+    display: inline;
+    margin-right: 5px;
+}
+#home
+{
+   background: cover; 
+    width: auto;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 40px;
+    padding-top: 6px;
+    padding-right: 40px;
+    color:rgb(155, 156, 218);
+    text-shadow: beige;
+    font-weight: bold;
+
+
+}
+a:hover, a:active
+{
+    border-bottom:150%;
+    border-bottom: 2px solid #cccccc;
+}
+a
+{
+    color: rgb(155, 156, 218);
+    margin-top: 6px 100px 20px 15px;
+    text-decoration: none;
+
+}
