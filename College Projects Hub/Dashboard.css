@@ -1,0 +1,260 @@
+body
+{
+    margin: 0;
+    /* background: url("https://www.xmple.com/wallpaper/black-white-hexagon-purple-glow-gradient-1920x1080-c4-000000-ffffff-483d8b-000000-l2-1-29-a-45-f-6.svg");
+    background-size: contain; */
+    background: #000; 
+    overflow: auto;
+    overflow-x: hidden;
+}
+#login
+{
+    width: 100%;
+	padding: 2em;
+	position: absolute;
+	
+
+}
+
+.container1
+{
+    background: rgba(13, 13, 14, 0.568);
+    color: ghostwhite;
+    display: inline-block;
+    width: 380px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 10px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+.btn0 button
+{
+    border: 2px solid green;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    padding-right: 15px;
+}
+.btn0 button:hover
+{
+    cursor:pointer;
+}
+.container2
+{
+    background: rgba(13, 13, 14, 0.568);
+    color: ghostwhite;
+    display: inline-block;
+    width: 380px;
+    height: 400px;
+    vertical-align: top;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 10px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+
+.container3
+{
+    background: rgba(13, 13, 14, 0.568);
+    color: ghostwhite;
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 10px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+
+
+#footer
+{
+    font: 25px Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: black;
+    background: rgba(230, 223, 223, 0.507);
+    margin-right: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 10px;
+    position: relative;
+    vertical-align: bottom;
+}
+#footer a
+{
+    font-size: 25px;
+    color: black;
+}
+
+.add_skill
+{
+    border-radius: 5px;
+}
+.label
+{
+    display: block;
+    float: left;
+}
+
+/* extras added */
+
+.highlight
+{
+    color: rgb(233, 24, 10);
+}
+
+#login
+{
+    width: 100%;
+	padding: 2px;
+	/*border: #ccc 2px solid;*/
+	position: absolute;
+	
+
+}
+header
+{
+    color: rgb(238, 221, 220); 
+    font-family: Verdana, Geneva, Tahoma, serif;
+    box-shadow: 0px 5px 5px rgba(117, 110, 110, 0.61) ;
+    /* overflow: hidden; */
+    
+}
+
+#header1
+{
+	display: inline-block;
+	padding-bottom: 20px;
+    margin-left: 200px;
+    position: relative;
+    font-size: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+ul
+{
+	width: 100%;
+	margin-left: 450px;
+}
+
+li
+{
+    display: inline;
+    margin-right: 5px;
+}
+#home
+{
+   background: cover; 
+    width: auto;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 40px;
+    padding-top: 6px;
+    padding-right: 40px;
+    color:rgb(155, 156, 218);
+    text-shadow: beige;
+    font-weight: bold;
+
+
+}
+/* on a:active means => on clicking,,,, */
+a:hover, a:active  
+{
+    border-bottom:150%;
+    border-bottom: 2px solid #cccccc;
+}
+a
+{
+    color: rgb(155, 156, 218);
+    margin-top: 6px 100px 20px 15px;
+    text-decoration: none;
+
+}
+/* overlay part */
+
+#add_skill, #newProject
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:100%;
+    width:100%;
+    background:rgba(26, 25, 25, 0.822);
+    z-index:3;
+    display:none;
+}
+.add_skill2
+{
+    position: relative;
+    display: block;
+    height: 250px;
+    width: 250px;
+    background: rgba(51, 51, 50, 0.164);
+    padding: 20px 20px 20px 20px;
+    margin: 10% 10% 10% 10%;
+    border: 3px solid green;
+    border-radius: 7px;
+    box-shadow: 1px 3px 3px rgba(137, 179, 24, 0.733);
+    top: 100px;
+}
+input[type="submit"]
+{
+    padding: 3px 15px 3px 3px;
+    border: 2px solid green;
+    color: #fff;
+    background: transparent;
+    border-radius: 7px;
+}
+
+.newProject2
+{
+    position: relative;
+    display: block;
+    height: 350px;
+    width: 350px;
+    background: rgba(51, 51, 50, 0.164);
+    padding: 20px 20px 20px 20px;
+    margin: 10% 10% 10% 10%;
+    border: 3px solid green;
+    border-radius: 7px;
+    box-shadow: 1px 3px 3px rgba(137, 179, 24, 0.733);
+    top: 100px;
+}
+input[type="text"]
+{
+    width: 100%;
+    display: block;
+    padding: 5px 15px 5px 3px;
+    border: 1px solid green;
+    border-radius: 7px;
+}
+input[type="textarea"]
+{
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 8px 15px 8px 3px;
+    border: 1px solid green;
+    border-radius: 7px;
+} 
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track
+{
+    background: #000;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgba(240, 240, 240, 0.466);
+}

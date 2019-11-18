@@ -1,0 +1,215 @@
+body
+{
+    margin: 0;
+    /* background: url("https://www.xmple.com/wallpaper/black-white-hexagon-purple-glow-gradient-1920x1080-c4-000000-ffffff-483d8b-000000-l2-1-29-a-45-f-6.svg");
+    background-size: contain; */
+    background: #000; 
+    overflow: auto;
+    overflow-x: hidden;
+}
+#login
+{
+    width: 100%;
+	padding: 2px;
+	/*border: #ccc 2px solid;*/
+	position: absolute;
+	
+
+}
+header
+{
+    color: rgb(238, 221, 220); 
+    font-family: Verdana, Geneva, Tahoma, serif;
+    box-shadow: 0px 5px 5px rgba(117, 110, 110, 0.61) ;
+    /* overflow: hidden; */
+    
+}
+
+#header1
+{
+    display: inline-block;
+    margin-left: 200px;
+    position: relative;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+.highlight
+{
+    color: rgb(233, 24, 10);
+}
+ul
+{
+    width: 100%;
+    margin-left: 450px;
+}
+li
+{
+    display: inline;
+    margin-right: 5px;
+}
+#collegeFilter
+{
+    border: 2px solid #cccccc;
+    border-radius: 15px;
+    background: rgba(48, 45, 45, 0.61);
+    color: #fff;
+    opacity: 1;
+    padding: 5px 100px 5px 15px;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+#containers
+{
+    position: relative;
+    width: 100%;
+}
+.container1
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 7.5%;
+
+    padding: 3px 5px 35px 14px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+    
+}
+.container2
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: inline-block;
+    width: 380px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 2px;
+    margin-left: 8%;
+    margin-right: 5px;
+    padding: 3px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+}
+
+.container3
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    font-weight: bolder;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-left: 8%;
+    padding: 3px 5px 35px 14px;
+    overflow: auto;
+    box-shadow: 1px 3px 4px rgba(240, 230, 230, 0.6);
+    
+}
+
+
+#footer
+{
+    font: 25px Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: black;
+    background: rgba(230, 223, 223, 0.507);
+    margin-right: 0%;
+    padding-bottom: 10px;
+    position: relative;
+}
+#footer a
+{
+    font-size: 25px;
+    color: black;
+}
+#home
+{
+   background: cover; 
+    width: auto;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 40px;
+    padding-top: 6px;
+    padding-right: 40px;
+    color:rgb(155, 156, 218);
+    text-shadow: beige;
+    font-weight: bold;
+
+
+}
+a:hover, a:active
+{
+    border-bottom:150%;
+    border-bottom: 2px solid #cccccc;
+}
+
+.add_skill
+{
+    border-radius: 5px;
+}
+.label
+{
+    display: block;
+    float: left;
+}
+
+a
+{
+    color: rgb(155, 156, 218);
+    margin-top: 6px 100px 20px 15px;
+    text-decoration: none;
+
+}
+#search
+{
+    width: 100%;
+    padding: 20px 500px 30px 15px;
+    margin-left: 20%;
+    
+}
+
+.searchPane
+{
+    border: 2px solid #cccccc;
+    border-radius: 15px;
+    background: rgba(43, 41, 41, 0.61);
+    color: #fff;
+    padding: 10px 350px 10px 15px;
+    box-shadow: 1px 3px rgba(240, 230, 230, 0.6);
+}
+.searchButton
+{
+    border-radius: 15px;
+    padding: 10px 35px 10px 15px;
+    font-weight: bolder;
+    background: rgba(211, 164, 120, 0.6);
+}
+#filter
+{
+    color: aqua;
+    font-weight: bold;
+    padding-left: 5px;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track
+{
+    background: #000;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgba(240, 240, 240, 0.466);
+}

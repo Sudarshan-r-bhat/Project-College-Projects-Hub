@@ -1,0 +1,37 @@
+{
+	"particles":
+	{
+		"number":
+		{
+		"value": 300
+		},
+		"color":
+		{
+			"value":"#8d8f85"
+		},
+		"size":
+		{
+			"value":0,
+			"random": true
+		},
+		"line-linked":
+		{
+			"enable":true,
+			"width":2,
+			"color":"d7fc03"
+		},
+		"move":
+		{
+			"random":true,
+			"direction":"right",
+			"speed":2
+		},
+		"line_linked":
+		{
+			"width":0,
+			"enable":true,
+			"color": "#8d8f85"
+		}
+
+	}
+}
